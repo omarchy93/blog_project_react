@@ -13,7 +13,7 @@ const Layout = (load) => {
   }, []);
   return (
     <div>
-      <div className=" container mx-auto shadow navbar bg-base-100">
+      <div className="  container mx-auto fixed z-50 top-0 shadow navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
